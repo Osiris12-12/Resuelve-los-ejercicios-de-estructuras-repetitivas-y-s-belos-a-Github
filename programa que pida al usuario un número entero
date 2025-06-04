@@ -1,0 +1,9 @@
+
+
+# se solicita al usuario un numero entero
+numero = int(input("ingresa un numero entero: "))
+
+# Aqui lo que hacemos es imprimir los numero desde el que es ingresado hasta el 0
+while numero >=0:
+    print(numero)
+    numero -= 1

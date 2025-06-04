@@ -1,0 +1,11 @@
+# Aqui definimos la contraseña que es correcta
+contraseña_correcta = "python123"
+
+# Hacemos una simulacion de un do-while con while True
+while True:
+    contraseña_ingresada = input("Ingresa la contraseña: ")
+    if contraseña_ingresada == contraseña_correcta:
+        print("¡Contraseña correcta! Acceso concedido.")
+        break
+    else:
+        print("Contraseña incorrecta. Inténtalo de nuevo.")

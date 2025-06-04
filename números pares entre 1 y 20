@@ -1,0 +1,4 @@
+# Aqui imprimimos los numeros pares entre 1 al 20 (inclusive)
+print("numeros pares del 1 al 20:")
+for numero in range(2, 21, 2):
+    print(numero)

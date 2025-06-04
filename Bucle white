@@ -1,0 +1,11 @@
+
+# Aqui vamos a solicitar al usuario quien esta usando el programa un número entero que sea positivo
+numero = int(input("ingresa un numero entero positivo: "))
+
+if numero <= 0:
+    print("por favor, ingresa un numero mayor a cero.")
+else: 
+    contador = 1
+while contador <= numero:
+    print(contador)
+    contador += 1

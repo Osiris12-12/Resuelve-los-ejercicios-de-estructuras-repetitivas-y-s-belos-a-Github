@@ -1,0 +1,12 @@
+# debe de solicitar al usuario un numero entero positivo
+limite = int(input("ingresa un numero entero: "))
+
+# validando que el numero sea positivo
+if limite <= 0:
+    print("por favor, ingresa un numero mayor que cero.")
+else:
+    numero = 1
+    print("numeros impares desde 1 hasta" , limite)
+    while numero <= limite:
+        print(numero)
+        numero += 2

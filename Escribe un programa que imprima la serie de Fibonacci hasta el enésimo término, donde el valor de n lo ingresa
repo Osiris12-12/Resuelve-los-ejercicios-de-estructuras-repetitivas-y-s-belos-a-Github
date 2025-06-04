@@ -1,0 +1,13 @@
+# solicitar al usuario cantidad de terminos de la serie de Fibonacci desea ver
+
+n = int(input("Cuantos terminos de la serie de Fibonacci desea mostrar? "))
+
+#verficar que N sea mayor que 0
+if n <= 0:
+    print("por favor, ingresa un numero mayor que el cero. ")
+else:
+    a, b = 0, 1
+    print("serie de Fibonacci:")
+    for _ in range(n):
+        print(a)
+        a, b = b, a + b 
