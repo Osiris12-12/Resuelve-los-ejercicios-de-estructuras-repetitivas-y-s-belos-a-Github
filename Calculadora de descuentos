@@ -1,0 +1,8 @@
+p = float(input("Precio: "))
+if p < 50:
+    d = 0
+elif p <= 100:
+    d = 0.05
+else:
+    d = 0.10
+print("Precio final:", p * (1 - d))
